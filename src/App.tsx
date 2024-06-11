@@ -1,9 +1,8 @@
 import { GroupList } from "./components";
-import "./app.css";
 
 function App() {
   return (
-    <div className="app">
+    <div className="app" style={{margin: "35px 70px"}}>
       <GroupList />
     </div>
   );
